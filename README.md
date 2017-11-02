@@ -1,24 +1,9 @@
-# README
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# UtopianIO Landing Page
 
-Things you may want to cover:
+Ruby/Rails Framework built for the UtopianIO Landing Page.
 
-* Ruby version
+# Contributing
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Just fork, make your changes, and submit a PR with enough information and screeshots/comments to explain what you did and the purpose.
