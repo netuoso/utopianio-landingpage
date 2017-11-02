@@ -1,0 +1,22 @@
+{
+  "name": "Utopian-IO Landing Page",
+  "description": "Utopian-IO Landing Page",
+  "keywords": [
+    "utopian-io",
+    "STEEM",
+    "steemit",
+    "utopian.io",
+    "cryptocurrency",
+    "opensource"
+  ],
+  "website": "https://utopian.io",
+  "repository": "https://github.com/netuoso/utopianio-landingpage",
+  "logo": "https://i.imgur.com/K3cU8cg.png",
+  "success_url": "/",
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  }
+}
