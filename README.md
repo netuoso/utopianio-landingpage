@@ -12,5 +12,9 @@ Use the `Deploy to Heroku` button at the top of this repo to create your own ver
 # Contributing
 Just fork, make your changes, and submit a PR with enough information and screeshots/comments to explain what you did and the purpose.
 
+# Screenshots
+![](https://i.imgur.com/VHgwjb8.png)
+![](https://i.imgur.com/pRzaoeB.png)
+
 # License
 WTFPL Version 2.0
