@@ -1,0 +1,174 @@
+<div id="header">
+    <div class="container" id="header-content">
+        <h3 class="text-white text-center">Utopian.io</h3>
+        <h1 class="text-white text-center font-weight-bold text-uppercase">Open Source Economy</h1>
+        <h2 class="text-white text-center">Earn rewards by contributing to your<br>favorite open source projects!</h2>
+    </div>
+    <div class="parallax-wave" id="wave-grey1"></div>
+    <div class="parallax-wave" id="wave-grey2"></div>
+    <div class="parallax-wave" id="wave-white"></div>
+</div>
+
+<div class="container text-center" id="screen">
+    <img src="<%= asset_path('screen.png') %>" class="mx-auto"/>
+<!--     
+    <a href="#" class="play-video">
+        <i class="fa fa-play"></i>
+    </a>
+-->
+</div>
+
+<div id="github-trigger"></div>
+<div class="container" id="github">
+    <div class="row">
+        <div class="col col-3 text-center">
+            <img src="<%= asset_path('logo-utopian-20p.png') %>" id="octocat"/>
+        </div>
+        <div class="col col-9">
+            <div id="github-text">
+                <h3 class="font-weight-bold my-4">Welcome to Utopian.IO!</h3>
+                Utopian.io is the only platform that rewards Open Source contributors. You can choose your favourite Open Source project and use Utopian.io to share your contributions and profit from that. <em>A project is Open Source when its codebase is public and editable by everyone. Most of the codebases of these projects are hosted on Github.com.<em><br>
+                <div class="text-right mt-3">
+                    <a href="https://v2.steemconnect.com/oauth2/authorize?client_id=utopian.app&redirect_uri=https%3A%2F%2Futopian.io%2Fcallback&scope=" class="btn btn-primary font-weight-bold" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Join our community!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5" id="topics">
+    <div id="contributionsCarousel" class="carousel slide" data-autoplay="off">
+        <div class="carousel-inner" style="padding-right:20px;margin-right:20px;">
+            <div class="item active">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <%= fa_icon "lightbulb-o 4x", class: 'card-img-top pt-4 mx-auto' %>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">Idea/Feature</h4>
+                                    <p class="card-text text-center">Share ideas or new features that you would like to have in an Open Source project.</p>
+                                    <div class="text-center"><a href="//utopian.io/search/documentation/ideas" class="btn btn-light">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <%= fa_icon "code 4x", class: 'card-img-top pt-4 mx-auto' %>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">Development</h4>
+                                    <p class="card-text text-center">Share code commits that you have authored to Open Source projects.</p>
+                                    <div class="text-center"><a href="//utopian.io/search/development/" class="btn btn-light">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <%= fa_icon "bug 4x", class: 'card-img-top pt-4 mx-auto' %>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">Bug Hunting</h4>
+                                    <p class="card-text text-center">Contribue bug reports for issues that you encounter in Open Source projects.</p>
+                                    <div class="text-center"><a href="//utopian.io/search/bug-hunting/" class="btn btn-light">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <%= fa_icon "flag 4x", class: 'card-img-top pt-4 mx-auto' %>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">Translation</h4>
+                                    <p class="card-text text-center">Contribute translations to Open Source projects for internationalization.</p>
+                                    <div class="text-center"><a href="//utopian.io/search/translations/" class="btn btn-light">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <%= fa_icon "newspaper-o 4x", class: 'card-img-top pt-4 mx-auto' %>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">Graphics</h4>
+                                    <p class="card-text text-center">Share graphics, styles and designs you created for Open Source projects.</p>
+                                    <div class="text-center"><a href="//utopian.io/search/graphics/" class="btn btn-light">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <%= fa_icon "book 4x", class: 'card-img-top pt-4 mx-auto' %>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">Documentation</h4>
+                                    <p class="card-text text-center">Contribute to the documentation provided with an Open Source project.</p>
+                                    <div class="text-center"><a href="//utopian.io/search/documentation/" class="btn btn-light">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <%= fa_icon "line-chart 4x", class: 'card-img-top pt-4 mx-auto' %>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">Analysis</h4>
+                                    <p class="card-text text-center">Share data analysis that you have conducted for an Open Source project.</p>
+                                    <div class="text-center"><a href="//utopian.io/search/analysis/" class="btn btn-light">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <%= fa_icon "share-alt 4x", class: 'card-img-top pt-4 mx-auto' %>
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-uppercase">Visibility</h4>
+                                    <p class="card-text text-center">Share results of social engagement and advertisements for Open Source projects.</p>
+                                    <div class="text-center"><a href="//utopian.io/search/social/" class="btn btn-light">Read more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#contributionsCarousel" role="button" data-slide="prev">
+            <i class="fa fa-2x fa-angle-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#contributionsCarousel" role="button" data-slide="next">
+            <i class="fa fa-2x fa-angle-right"></i>
+        </a>
+    </div>
+</div>
+
+<div id="rewards">
+    <h2><span>Rewards</span></h2>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="counter">
+                    <h3>$7948</h3>
+                    <p>Pending Rewards</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter">
+                    <h3>$5221</h3>
+                    <p>Released Contributor Rewards</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter">
+                    <h3>$1594</h3>
+                    <p>Released Curator Rewards</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter">
+                    <h3>$14763</h3>
+                    <p class="text-uppercase font-weight-bold">Total Generated</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Utopian - Rewarding Open Source Contributors</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+
+    <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div id="app">
+
+	<%= render 'shared/top_navbar' %>
+
+	<%= yield %>
+
+</div>
+
+<%= javascript_include_tag 'application' %>
+
+</body>
+</html>
